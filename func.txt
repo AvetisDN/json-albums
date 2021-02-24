@@ -1,0 +1,30 @@
+function(arg) {
+    ...
+    ...
+    ...
+    return x
+}
+
+(arg) => {
+    ...
+    ...
+    ...
+    return x
+}
+
+(arg) => ...
+
+
+let arr = [1,-1,2,3,-5]
+
+let filtered = arr.filter(function(item) {
+    return item > 0
+})
+
+let filtered = arr.filter((item) => {
+    return item > 0
+})
+
+let filtered = arr.filter((item) => item > 0)
+
+let positive = arr.map((item) => Math.abs(item))
